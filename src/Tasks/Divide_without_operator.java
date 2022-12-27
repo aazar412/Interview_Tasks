@@ -11,6 +11,7 @@ public class Divide_without_operator {
         int num1 = number.nextInt();
         System.out.println("Enter second number");
         int num2 = number.nextInt();
+
         int result = 0;
 
         while (num1 >= num2) { //// if num1 is greater or equal to num 2
