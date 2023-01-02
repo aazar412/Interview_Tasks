@@ -4,7 +4,7 @@ package Tasks;
 public class CodilityTestCoders {
     public static void main(String[] args) {
 
-        int N= 25;
+        int N= 100;
         consecutive(N);
     }
 
