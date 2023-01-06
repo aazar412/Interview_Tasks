@@ -10,7 +10,7 @@ public class DivisibleBy_3_5_15 {
 
 
     public static void divisibleBy(int N){
-        String divisibleBy15 = "";
+        String divisibleBy15 = "Divisible by 15: ";
         String divisibleBy5 = "";
         String divisibleBy3 = "";
 
@@ -24,8 +24,8 @@ public class DivisibleBy_3_5_15 {
             }
         }
 
-        System.out.println("Divisible by 15: "+divisibleBy15);
-        System.out.println("Divisible by 3: "+divisibleBy3);
+        System.out.println(divisibleBy15); //one way to print it
+        System.out.println("Divisible by 3: "+divisibleBy3); //another way to print it
         System.out.println("Divisible by 5: "+divisibleBy5);
 
     }
