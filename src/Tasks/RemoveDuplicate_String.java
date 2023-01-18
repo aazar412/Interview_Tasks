@@ -1,5 +1,6 @@
 package Tasks;
 
+import java.util.ArrayList;
 import java.util.LinkedHashSet;
 import java.util.Set;
 
@@ -73,6 +74,32 @@ public class RemoveDuplicate_String {
         }
         return result;
 
+    }
+
+    // another
+
+    public static String removeDuplicate(String a){
+
+        char[] ch= a.toCharArray();
+
+
+        Set<Character> set1=new LinkedHashSet<>();
+
+        for (char c : ch) {
+            set1.add(c);
+        }
+
+        ArrayList<Character> list=new ArrayList<>(set1);
+
+        String result="";
+
+        for (int i = 0; i < list.size(); i++) {
+
+            result+=list.get(i);
+
+        }
+
+        return result;
     }
 
 
