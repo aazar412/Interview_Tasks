@@ -60,7 +60,6 @@ public class RemoveDuplicate_String {
         return result2;
     }
 
-
     // Set character for LInkedHashSet
 
     public static String removeDup3(String str) {
@@ -77,7 +76,6 @@ public class RemoveDuplicate_String {
     }
 
     // another
-
     public static String removeDuplicate(String a){
 
         char[] ch= a.toCharArray();
